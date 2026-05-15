@@ -4,11 +4,11 @@ category: guides
 slug: explore-tag-lineage
 source: src/content/docs/zh-CN/guides/explore-tag-lineage.tsx
 ---
-> *脉络侧边栏是 Hyday 探索主题的核心界面，点任何标签、人事物或 LifeLog 标记都能打开，它把该主题的数据统计、时间轴、关联主题集中在一个面板，并可进一步调用 AI 做深度脉络分析*
+> * 脉络侧边栏是 Hyday 探索主题的核心界面，点任何标签、人事物或 LifeLog 标记都能打开，它把该主题的数据统计、时间轴、关联主题集中在一个面板，并可进一步调用 AI 做深度脉络分析 *
 
 ## 1. 侧边栏面板的基本功能
 
-点击任何**标签**(`#tag`)、**人事物标记**(`@entity`) 或**LifeLog 标记**(`>(`、`<(`、`-(`、`%(`、`!(`)，侧边栏面板会从右侧滑出。面板由以下几个区块组成：
+点击任何**标签** (`#tag`)、**人事物标记** (`@entity`) 或 **LifeLog 标记** (`>(`、`<(`、`-(`、`%(`、`!(`)，侧边栏面板会从右侧滑出。面板由以下几个区块组成：
 
 ![脉络侧边栏面板：展示主题标头、三栏统计与分页内容](https://hyday.tw/docs/screenshots/ui-lineage-drawer.png)
 
@@ -20,7 +20,7 @@ source: src/content/docs/zh-CN/guides/explore-tag-lineage.tsx
 
 - **近 7 天讨论度**：最近 7 天出现次数，以及与前一周相比的百分比变化 (仅在差距大于 10% 时显示)
 - **相关话题**：与此主题最常同时出现的另一个标签或人事物
-- **未完成任务**：与此主题相关、尚未关闭的`>(`任务数量
+- **未完成任务**：与此主题相关、尚未关闭的 `>(` 任务数量
 
 ### 三个分页
 
@@ -30,7 +30,7 @@ source: src/content/docs/zh-CN/guides/explore-tag-lineage.tsx
 
 ## 2. 脉络分析 (VVIP 专属功能)
 
-侧边栏里的 AI 分析功能属于[VVIP 专属功能](https://hyday.tw/docs/reference/plans)，会将该主题近 90 天的纪录送往使用者设置的 AI Provider 进行运算，产出文字总结。目前提供两种分析：
+侧边栏里的 AI 分析功能属于 [VVIP 专属功能](https://hyday.tw/docs/reference/plans)，会将该主题近 90 天的纪录送往使用者设置的 AI Provider 进行运算，产出文字总结。目前提供两种分析：
 
 ### 主题演变
 
@@ -51,7 +51,7 @@ source: src/content/docs/zh-CN/guides/explore-tag-lineage.tsx
 - **待处理**：尚未完成、需要继续追踪的项目
 
 > **ℹ️ Info**
-> AI 分析需呼叫使用者设置的 Provider。若网络不稳、Provider 未配置或暂时无法回应，会显示**无法分析**；若该主题的历史纪录不足以产出有意义的趋势，会显示**资料不足**。若对资料传输有疑虑，可在**设置 → AI**切换至本机端的 Ollama
+>  AI 分析需呼叫使用者设置的 Provider。若网络不稳、Provider 未配置或暂时无法回应，会显示**无法分析**；若该主题的历史纪录不足以产出有意义的趋势，会显示**资料不足**。若对资料传输有疑虑，可在 **设置 → AI** 切换至本机端的 Ollama 
 
 ## 何时适合打开脉络侧边栏？
 

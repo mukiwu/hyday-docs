@@ -4,7 +4,7 @@ category: guides
 slug: sign-in-and-sync
 source: src/content/docs/zh-TW/guides/sign-in-and-sync.tsx
 ---
-> *帳號登入在 Hyday 中是完全選用的，即使不登入，依然能完整使用核心的筆記與日記功能，且能離線使用。登入後，將能解鎖 VVIP 權限驗證、訂閱官方動態，並實現偏好設定的跨裝置同步*
+> * 帳號登入在 Hyday 中是完全選用的，即使不登入，依然能完整使用核心的筆記與日記功能，且能離線使用。登入後，將能解鎖 VVIP 權限驗證、訂閱官方動態，並實現偏好設定的跨裝置同步 *
 
 ## 1. 為什麼建議登入？
 

@@ -4,11 +4,11 @@ category: guides
 slug: use-command-palette
 source: src/content/docs/zh-TW/guides/use-command-palette.tsx
 ---
-> *Hyday 有提供命令面板，可讓使用者無須離開鍵盤即可快速跳轉至任何頁面或執行各種功能指令*
+> * Hyday 有提供命令面板，可讓使用者無須離開鍵盤即可快速跳轉至任何頁面或執行各種功能指令 *
 
 ## 1. 核心快捷鍵對照
 
-功能用途macOSWindows**命令面板**(執行功能指令)`Cmd`+`Shift`+`P``Ctrl`+`Shift`+`P`**全域搜尋**(尋找筆記與內容)`Cmd`+`K``Ctrl`+`K`
+   功能用途 macOS Windows     **命令面板** (執行功能指令) `Cmd`+`Shift`+`P` `Ctrl`+`Shift`+`P`   **全域搜尋** (尋找筆記與內容) `Cmd`+`K` `Ctrl`+`K`   
 
 可將**命令面板**視為執行**動作**的窗口，而將**全域搜尋**視為尋找**資料**的入口。兩者相輔相成，分工明確。
 
@@ -37,4 +37,4 @@ source: src/content/docs/zh-TW/guides/use-command-palette.tsx
 
 ## 5. 一切功能的起點
 
-若忘記某項功能的所在位置，最直覺的方式就是按下`Cmd (Ctrl)`+`Shift`+`P`並輸入關鍵字，系統通常能立即找出對應的操作指令。
+若忘記某項功能的所在位置，最直覺的方式就是按下 `Cmd (Ctrl)`+`Shift`+`P` 並輸入關鍵字，系統通常能立即找出對應的操作指令。

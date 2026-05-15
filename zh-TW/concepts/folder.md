@@ -4,13 +4,13 @@ category: concepts
 slug: folder
 source: src/content/docs/zh-TW/concepts/folder.tsx
 ---
-> *資料夾 (Folder) 是 Hyday 的核心儲存單位。所有筆記、日記與設定皆存放於此資料夾內，具備高度可攜性、支援版本控制，並可被任何標準 Markdown 編輯器讀取*
+> * 資料夾 (Folder) 是 Hyday 的核心儲存單位。所有筆記、日記與設定皆存放於此資料夾內，具備高度可攜性、支援版本控制，並可被任何標準 Markdown 編輯器讀取 *
 
 ## 為什麼採用資料夾儲存機制？
 
 - **本機優先**：所有創作內容皆儲存於個人電腦中，而非官方伺服器，確保資料隱私
 - **具備可攜性**：採用 Markdown 格式與 Frontmatter 元資料，確保資料能被任何現代編輯器讀取與轉換
-- **支援版本控制**：可直接在資料夾根目錄執行`git init`，將整個筆記庫視為一個 Git 儲存庫
+- **支援版本控制**：可直接在資料夾根目錄執行 `git init`，將整個筆記庫視為一個 Git 儲存庫
 - **不被特定工具綁架**：即便未來不再使用 Hyday，所有筆記依然能保持原始結構與內容，隨意遷移
 
 ## 資料夾結構一覽
@@ -19,9 +19,9 @@ source: src/content/docs/zh-TW/concepts/folder.tsx
 ``
 ```
 
-- **筆記檔案**：標準的`.md`格式檔案，可放在根目錄或任意子資料夾。
-- **日記檔案**：放在`journal/<年份>/`路徑下、檔名為`YYYY-MM-DD.md`的檔案會被識別為日記條目並加入日記時間軸。Hyday 預設就會建立這樣的結構。
-- **媒體與附件**：插入筆記的圖片或附件，預設存放於`assets/`資料夾。
+- **筆記檔案**：標準的 `.md` 格式檔案，可放在根目錄或任意子資料夾。
+- **日記檔案**：放在 `journal/<年份>/` 路徑下、檔名為 `YYYY-MM-DD.md` 的檔案會被識別為日記條目並加入日記時間軸。Hyday 預設就會建立這樣的結構。
+- **媒體與附件**：插入筆記的圖片或附件，預設存放於 `assets/` 資料夾。
 - **.hyday/ 資料夾**：用於存放搜尋索引與標籤統計的快取資料，若遺失可由系統自動重建。
 
 ## 單一資料夾 vs. 多份資料夾
@@ -32,4 +32,4 @@ source: src/content/docs/zh-TW/concepts/folder.tsx
 兩種方式皆可依據工作流調整。請注意，Hyday 每次僅能開啟並操作一份資料夾
 
 > **ℹ️ Info**
-> 可以。只需將 Hyday 資料夾建立在 iCloud Drive、Dropbox 或 Google Drive 的同步路徑下即可。但應避免在多台裝置上同時編輯同一個檔案，以防止產生同步衝突 (Sync conflict)
+>  可以。只需將 Hyday 資料夾建立在 iCloud Drive、Dropbox 或 Google Drive 的同步路徑下即可。但應避免在多台裝置上同時編輯同一個檔案，以防止產生同步衝突 (Sync conflict)

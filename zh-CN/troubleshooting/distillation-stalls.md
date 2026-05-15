@@ -4,13 +4,13 @@ category: troubleshooting
 slug: distillation-stalls
 source: src/content/docs/zh-CN/troubleshooting/distillation-stalls.tsx
 ---
-> *若发现人格蒸馏功能跑很久无法完成、卡在某个阶段或产出的人格品质明显不佳，请参考本指南进行原因诊断与排解*
+> * 若发现人格蒸馏功能跑很久无法完成、卡在某个阶段或产出的人格品质明显不佳，请参考本指南进行原因诊断与排解 *
 
 ## 1. 确认 AI 后端是否支援网络搜索
 
 人格蒸馏的 Phase 1 需要进行**六维度的即时网络调研**，是否有可用的搜索工具直接决定了整个流程能不能跑：
 
-- **建议使用 CLI 后端**(Claude Code、Gemini CLI、Codex CLI)：这些后端内建搜索工具，开箱可用
+- **建议使用 CLI 后端** (Claude Code、Gemini CLI、Codex CLI)：这些后端内建搜索工具，开箱可用
 - 若选用 API 后端，必须额外配置搜索工具，否则 Phase 1 会直接失败或产出空泛内容。
 
 **切换位置**：设置 → AI → Functions → 人格蒸馏
@@ -20,7 +20,7 @@ source: src/content/docs/zh-CN/troubleshooting/distillation-stalls.tsx
 Phase 1 要在公开网络上做著作 / 对话 / 表达 / 他者 / 决策 / 时间线六个面向的搜索，正常情况约需 2 至 5 分钟。若卡超过 10 分钟：
 
 - **检查网络**：CLI 后端的搜索工具需要稳定外网连线
-- **检查 CLI 工具是否已登录授权**：例如 Claude Code 需先`claude login`
+- **检查 CLI 工具是否已登录授权**：例如 Claude Code 需先 `claude login`
 - **确认人物公开资料量**：过于冷门或近期才公开亮相的人物可能让搜索反复扑空，AI 会在「诚实边界」标注资料薄弱
 
 ## 3. 产出人格的口气 / 判断与本人差异很大
@@ -58,4 +58,4 @@ Phase 1 要在公开网络上做著作 / 对话 / 表达 / 他者 / 决策 / 时
 - 若问题依旧，请打开 GitHub Issue 并检附当下的**输入参数**与 Console 的完整错误消息
 
 > **ℹ️ Info**
-> 人格蒸馏属于**重量级运作**，视后端搜索速度与人物资料丰富度，通常需耗时 5 至 10 分钟。蒸馏程序会在背景执行，可以继续进行笔记撰写；任务完成后系统会跳出 Toast 通知
+>  人格蒸馏属于**重量级运作**，视后端搜索速度与人物资料丰富度，通常需耗时 5 至 10 分钟。蒸馏程序会在背景执行，可以继续进行笔记撰写；任务完成后系统会跳出 Toast 通知

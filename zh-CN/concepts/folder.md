@@ -4,13 +4,13 @@ category: concepts
 slug: folder
 source: src/content/docs/zh-CN/concepts/folder.tsx
 ---
-> *文件夹 (Folder) 是 Hyday 的核心储存单位。所有笔记、日记与设置皆存放于此文件夹内，具备高度可携性、支援版本控制，并可被任何标准 Markdown 编辑器读取*
+> * 文件夹 (Folder) 是 Hyday 的核心储存单位。所有笔记、日记与设置皆存放于此文件夹内，具备高度可携性、支援版本控制，并可被任何标准 Markdown 编辑器读取 *
 
 ## 为什么采用文件夹储存机制？
 
 - **本机优先**：所有创作内容皆储存于个人电脑中，而非官方伺服器，确保资料隐私
 - **具备可携性**：采用 Markdown 格式与 Frontmatter 元资料，确保资料能被任何现代编辑器读取与转换
-- **支援版本控制**：可直接在文件夹根目录执行`git init`，将整个笔记库视为一个 Git 储存库
+- **支援版本控制**：可直接在文件夹根目录执行 `git init`，将整个笔记库视为一个 Git 储存库
 - **不被特定工具绑架**：即便未来不再使用 Hyday，所有笔记依然能保持原始结构与内容，随意迁移
 
 ## 文件夹结构一览
@@ -19,9 +19,9 @@ source: src/content/docs/zh-CN/concepts/folder.tsx
 ``
 ```
 
-- **笔记文件**：标准的`.md`格式文件，可放在根目录或任意子文件夹。
-- **日记文件**：放在`journal/<年份>/`路径下、档名为`YYYY-MM-DD.md`的文件会被识别为日记条目并加入日记时间轴。Hyday 默认就会建立这样的结构。
-- **媒体与附件**：插入笔记的图片或附件，默认存放于`assets/`文件夹。
+- **笔记文件**：标准的 `.md` 格式文件，可放在根目录或任意子文件夹。
+- **日记文件**：放在 `journal/<年份>/` 路径下、档名为 `YYYY-MM-DD.md` 的文件会被识别为日记条目并加入日记时间轴。Hyday 默认就会建立这样的结构。
+- **媒体与附件**：插入笔记的图片或附件，默认存放于 `assets/` 文件夹。
 - **.hyday/ 文件夹**：用于存放搜索索引与标签统计的缓存资料，若遗失可由系统自动重建。
 
 ## 单一文件夹 vs. 多份文件夹
@@ -32,4 +32,4 @@ source: src/content/docs/zh-CN/concepts/folder.tsx
 两种方式皆可依据工作流调整。请注意，Hyday 每次仅能打开并操作一份文件夹
 
 > **ℹ️ Info**
-> 可以。只需将 Hyday 文件夹建立在 iCloud Drive、Dropbox 或 Google Drive 的同步路径下即可。但应避免在多台装置上同时编辑同一个文件，以防止产生同步冲突 (Sync conflict)
+>  可以。只需将 Hyday 文件夹建立在 iCloud Drive、Dropbox 或 Google Drive 的同步路径下即可。但应避免在多台装置上同时编辑同一个文件，以防止产生同步冲突 (Sync conflict)

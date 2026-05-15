@@ -4,7 +4,7 @@ category: guides
 slug: track-a-day-with-lifelog
 source: src/content/docs/zh-TW/guides/track-a-day-with-lifelog.tsx
 ---
-> *LifeLog 標記能將零碎的日記轉化為結構化且可供分析的時間軸，本指南將帶領體驗一整天完整的標記流程*
+> * LifeLog 標記能將零碎的日記轉化為結構化且可供分析的時間軸，本指南將帶領體驗一整天完整的標記流程 *
 
 ## 早晨：從甦醒到開工
 
@@ -14,7 +14,7 @@ source: src/content/docs/zh-TW/guides/track-a-day-with-lifelog.tsx
 
 ## 工作中：專注與記錄
 
-記錄任務時，建議使用`>(時間)`標記開始、`<(時間)`標記結束。期間產生的靈感使用`%()`，重要事項則使用`!()`：
+記錄任務時，建議使用 `>(時間)` 標記開始、`<(時間)` 標記結束。期間產生的靈感使用 `%()`，重要事項則使用 `!()`：
 
 ```
 ``
@@ -43,4 +43,4 @@ source: src/content/docs/zh-TW/guides/track-a-day-with-lifelog.tsx
 ```
 
 > **ℹ️ Info**
-> Hyday 的目標並非監控勤勞程度，而是讓紀錄得越詳盡，在未來進行自我回顧與 AI 脈絡分析時，所能獲得的洞察價值就越高
+>  Hyday 的目標並非監控勤勞程度，而是讓紀錄得越詳盡，在未來進行自我回顧與 AI 脈絡分析時，所能獲得的洞察價值就越高

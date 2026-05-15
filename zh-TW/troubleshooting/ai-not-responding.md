@@ -4,11 +4,11 @@ category: troubleshooting
 slug: ai-not-responding
 source: src/content/docs/zh-TW/troubleshooting/ai-not-responding.tsx
 ---
-> *若在使用 AI 功能時遇到系統無反應、持續載入、或跳出錯誤訊息時，請參考以下診斷流程進行排除*
+> * 若在使用 AI 功能時遇到系統無反應、持續載入、或跳出錯誤訊息時，請參考以下診斷流程進行排除 *
 
 ## 1. 檢查服務供應商的連線狀態
 
-請前往**設定**(`⌘`+`,`) →**AI**分頁，找到正在使用的供應商資訊，點擊**測試連線**按鈕。連線失敗的常見原因包括：
+請前往**設定** (`⌘` + `,`) → **AI**分頁，找到正在使用的供應商資訊，點擊**測試連線**按鈕。連線失敗的常見原因包括：
 
 - **API Key 異常**：金鑰已過期、被撤銷或輸入不完整
 - **帳戶額度不足**：雲端供應商的額度已耗盡
@@ -29,7 +29,7 @@ source: src/content/docs/zh-TW/troubleshooting/ai-not-responding.tsx
 ``
 ```
 
-若回應 200 代表正常；若回應`Connection refused`，代表 Ollama 服務尚未啟動，請執行：
+若回應 200 代表正常；若回應 `Connection refused`，代表 Ollama 服務尚未啟動，請執行：
 
 ```
 ``
@@ -43,10 +43,10 @@ source: src/content/docs/zh-TW/troubleshooting/ai-not-responding.tsx
 
 ## 4. 自訂端點：驗證路徑格式
 
-Hyday 會自動處理`/v1`路徑後綴，請檢查 Base URL 設定：
+Hyday 會自動處理 `/v1` 路徑後綴，請檢查 Base URL 設定：
 
-- 若填入`https://api.example.com`：Hyday 會自動對接至`/v1/chat/completions`
-- 若填入`https://api.example.com/v1`：Hyday 會直接對接至`/chat/completions`
+- 若填入 `https://api.example.com`：Hyday 會自動對接至 `/v1/chat/completions`
+- 若填入 `https://api.example.com/v1`：Hyday 會直接對接至 `/chat/completions`
 
 請注意，自訂服務端必須符合 OpenAI 相容格式，否則可能無法正常運作
 
@@ -56,11 +56,11 @@ Hyday 會自動處理`/v1`路徑後綴，請檢查 Base URL 設定：
 
 - 點擊對話視窗右上角的**停止**按鈕強行中斷
 - 開啟一段全新的對話進行測試
-- 若特定指令反覆導致卡死，請檢查所選模型是否完整支援**工具呼叫**功能，詳見[AI 供應商對照表](/docs/reference/ai-providers)
+- 若特定指令反覆導致卡死，請檢查所選模型是否完整支援**工具呼叫**功能，詳見 [AI 供應商對照表](/docs/reference/ai-providers)
 
 ## 6. 常見錯誤代碼對照表
 
-錯誤代碼代表意義建議處理方式401API Key 錯誤請重新檢查並貼上正確的金鑰403權限受限請檢查帳號是否有權限存取該特定模型429請求頻率超限請稍候再試，或升級帳號等級500 / 503供應商端故障此為供應商端問題，請關注官方狀態頁面Context length exceeded內容超出長度上限請減少一次傳送的筆記量，或更換為具備大上下文視窗的模型
+   錯誤代碼 代表意義 建議處理方式    401API Key 錯誤請重新檢查並貼上正確的金鑰 403權限受限請檢查帳號是否有權限存取該特定模型 429請求頻率超限 請稍候再試，或升級帳號等級 500 / 503供應商端故障此為供應商端問題，請關注官方狀態頁面 Context length exceeded內容超出長度上限請減少一次傳送的筆記量，或更換為具備大上下文視窗的模型  
 
 > **ℹ️ Info**
-> 若某一供應商反覆失敗，建議暫時切換至另一個供應商 (如從雲端切換至本機 Ollama)。若切換後功能正常，則代表問題出在供應商端而非 Hyday 本身
+>  若某一供應商反覆失敗，建議暫時切換至另一個供應商 (如從雲端切換至本機 Ollama)。若切換後功能正常，則代表問題出在供應商端而非 Hyday 本身

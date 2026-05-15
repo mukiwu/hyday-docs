@@ -4,7 +4,7 @@ category: concepts
 slug: split-view
 source: src/content/docs/en/concepts/split-view.tsx
 ---
-> *Split View lets you open two pieces of content side by side. Whether you're comparing data, referencing across notes, or reading while taking notes, you can do it all in one window.*
+> * Split View lets you open two pieces of content side by side. Whether you're comparing data, referencing across notes, or reading while taking notes, you can do it all in one window. *
 
 ## Single View vs. Split View
 

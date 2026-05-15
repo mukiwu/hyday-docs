@@ -4,7 +4,7 @@ category: reference
 slug: contributing
 source: src/content/docs/zh-TW/reference/contributing.tsx
 ---
-> *Hyday 目前正處於高強度的研發階段，非常重視早期使用者的真實反饋，你的參與將直接形塑 Hyday 的未來。以下是參與貢獻的幾種主要管道*
+> * Hyday 目前正處於高強度的研發階段，非常重視早期使用者的真實反饋，你的參與將直接形塑 Hyday 的未來。以下是參與貢獻的幾種主要管道 *
 
 ## 回報程式錯誤 (Bug Reporting)
 
@@ -12,7 +12,7 @@ source: src/content/docs/zh-TW/reference/contributing.tsx
 
 ![Feedback](https://hyday.tw/docs/screenshots/reference-contributing-1.png)
 
-或前往[GitHub Issues](https://github.com/mukiwu/hyday/issues)提交回報，為了協助開發團隊快速定位問題，請在報告中包含：
+或前往 [GitHub Issues](https://github.com/mukiwu/hyday/issues) 提交回報，為了協助開發團隊快速定位問題，請在報告中包含：
 
 - Hyday 的版本號 (可於**設定 → 關於**中查看
 - 作業系統版本
@@ -22,7 +22,7 @@ source: src/content/docs/zh-TW/reference/contributing.tsx
 
 ## 提出功能建議
 
-歡迎到[Discord](https://discord.com/invite/EMhdBUMuYw)的**#hyday**頻道提出功能建議，或前往[GitHub Issues](https://github.com/mukiwu/hyday/issues)提交，請為 issue 標註`enhancement`標籤，並試著說明：
+歡迎到 [Discord](https://discord.com/invite/EMhdBUMuYw) 的 **#hyday** 頻道提出功能建議，或前往 [GitHub Issues](https://github.com/mukiwu/hyday/issues) 提交，請為 issue 標註 `enhancement` 標籤，並試著說明：
 
 - **想解決的核心痛點**：請儘量描述**我在執行什麼任務時感到困難**，而非直接開出功能清單
 - **目前的替代方案**：目前是如何繞過此問題進行操作的？
@@ -37,8 +37,8 @@ source: src/content/docs/zh-TW/reference/contributing.tsx
 
 ## 聯繫管道彙整
 
-- **技術問題與回饋**：請優先使用[GitHub Issues](https://github.com/mukiwu/hyday/issues)或到[Discord](https://discord.com/invite/EMhdBUMuYw)的**#hyday**頻道
+- **技術問題與回饋**：請優先使用 [GitHub Issues](https://github.com/mukiwu/hyday/issues)或到 [Discord](https://discord.com/invite/EMhdBUMuYw) 的 **#hyday** 頻道
 - **商務合作與 VVIP 諮詢**：`mukispace@gmail.com`
 
 > **ℹ️ Info**
-> 最有價值的回饋，往往是日常紀錄中那些**稍微感到不便，但還能忍受**的小細節。產品團隊難以預見每一位使用者的真實情境，真實體驗就是我們進化的動力
+>  最有價值的回饋，往往是日常紀錄中那些**稍微感到不便，但還能忍受**的小細節。產品團隊難以預見每一位使用者的真實情境，真實體驗就是我們進化的動力

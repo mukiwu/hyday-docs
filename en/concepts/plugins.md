@@ -4,7 +4,7 @@ category: concepts
 slug: plugins
 source: src/content/docs/en/concepts/plugins.tsx
 ---
-> *Plugins extend the Hyday app. They typically attach commonly used utility components, third-party integrations, or custom scripts to Hyday and work alongside your notes folder.*
+> * Plugins extend the Hyday app. They typically attach commonly used utility components, third-party integrations, or custom scripts to Hyday and work alongside your notes folder. *
 
 ## What Are Hyday Plugins?
 
@@ -28,4 +28,4 @@ Plugins are a VVIP-only feature. After upgrading to VVIP you get access to the o
 
 ## Custom and Third-Party Plugins
 
-Developers can write their own plugins in HTML and JavaScript. The full Host API definition, sandbox constraints, and development workflow will live in a dedicated**developer documentation**(work in progress, stay tuned).
+Developers can write their own plugins in HTML and JavaScript. The full Host API definition, sandbox constraints, and development workflow will live in a dedicated **developer documentation** (work in progress, stay tuned).

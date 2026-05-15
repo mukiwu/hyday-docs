@@ -4,7 +4,7 @@ category: guides
 slug: sign-in-and-sync
 source: src/content/docs/zh-CN/guides/sign-in-and-sync.tsx
 ---
-> *帐号登录在 Hyday 中是完全选用的，即使不登录，依然能完整使用核心的笔记与日记功能，且能离线使用。登录后，将能解锁 VVIP 权限验证、订阅官方动态，并实现偏好设置的跨装置同步*
+> * 帐号登录在 Hyday 中是完全选用的，即使不登录，依然能完整使用核心的笔记与日记功能，且能离线使用。登录后，将能解锁 VVIP 权限验证、订阅官方动态，并实现偏好设置的跨装置同步 *
 
 ## 1. 为什么建议登录？
 

@@ -4,7 +4,7 @@ category: concepts
 slug: plugins
 source: src/content/docs/zh-CN/concepts/plugins.tsx
 ---
-> *Plugins 可以扩充 Hyday 笔记软件，通常会将常用的工具组件、第三方服务整合或自定义脚本挂载至 Hyday 中，与笔记文件夹协同运作*
+> * Plugins 可以扩充 Hyday 笔记软件，通常会将常用的工具组件、第三方服务整合或自定义脚本挂载至 Hyday 中，与笔记文件夹协同运作 *
 
 ## 何谓 Hyday Plugins？
 
@@ -28,4 +28,4 @@ Plugins 为 VVIP 专属功能，成为 VVIP 后可以在市集使用官方的 Pl
 
 ## 自定义与第三方 Plugins
 
-开发者可以运用 HTML 与 JavaScript 撰写个人专属插件。关于 Host API 的完整定义、沙箱环境限制与开发流程，请参考独立的**开发者文件**(开发中，敬请期待)
+开发者可以运用 HTML 与 JavaScript 撰写个人专属插件。关于 Host API 的完整定义、沙箱环境限制与开发流程，请参考独立的**开发者文件** (开发中，敬请期待)

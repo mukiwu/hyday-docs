@@ -4,7 +4,7 @@ category: concepts
 slug: ai-agent
 source: src/content/docs/zh-TW/concepts/ai-agent.tsx
 ---
-> *AI Agent 是 Hyday 內建的高級助手。除了具備一般對話能力外，更強大的地方在於能主動執行**工具**：包括讀取筆記、建立新檔案、進行脈絡分析與整理待辦任務。*
+> * AI Agent 是 Hyday 內建的高級助手。除了具備一般對話能力外，更強大的地方在於能主動執行**工具**：包括讀取筆記、建立新檔案、進行脈絡分析與整理待辦任務。 *
 
 ## 對話模式 (Chat) vs. 代理模式 (Agent)
 
@@ -22,7 +22,7 @@ source: src/content/docs/zh-TW/concepts/ai-agent.tsx
 
 ## 對話紀錄與可追溯性
 
-所有 Agent 對話會集中儲存在筆記資料夾的`.hyday/agent-conversations/v1.json`單一 JSON 檔中，可隨時回顧對話脈絡，或將其納入版本控制管理
+所有 Agent 對話會集中儲存在筆記資料夾的 `.hyday/agent-conversations/v1.json` 單一 JSON 檔中，可隨時回顧對話脈絡，或將其納入版本控制管理
 
 ## 支援的服務供應商
 

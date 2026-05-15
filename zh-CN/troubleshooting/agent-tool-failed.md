@@ -4,14 +4,14 @@ category: troubleshooting
 slug: agent-tool-failed
 source: src/content/docs/zh-CN/troubleshooting/agent-tool-failed.tsx
 ---
-> *若 AI Agent 在执行工具呼叫后跳出错误，或是陷入重复呼叫同一工具而无结果的无限循环，请参考以下排除方案*
+> * 若 AI Agent 在执行工具呼叫后跳出错误，或是陷入重复呼叫同一工具而无结果的无限循环，请参考以下排除方案 *
 
 ## 1. 陷入 Widget 渲染重试循环
 
-当 Agent 尝试呼叫`render_widget`失败时，偶尔会发生过度重试的情况。**症状表现**：
+当 Agent 尝试呼叫 `render_widget` 失败时，偶尔会发生过度重试的情况。**症状表现**：
 
 - 对话窗口中不断自动跳出新的、且呈现错误的 Widget 组件
-- 对话历程长度急遽增加，导致`.hyday/agent-conversations/v1.json`文件异常变大并拖慢系统效能
+- 对话历程长度急遽增加，导致 `.hyday/agent-conversations/v1.json` 文件异常变大并拖慢系统效能
 
 **处理对策**：
 
@@ -23,7 +23,7 @@ source: src/content/docs/zh-CN/troubleshooting/agent-tool-failed.tsx
 
 若 AI Agent 完全不执行任何工具，仅透过纯文字描述其**想做的事**，通常代表选用的模型不支援 Function Calling 语法
 
-请参考[AI 供应商对照表](/docs/reference/ai-providers)，确保已切换至具备代理能力的进阶模型
+请参考 [AI 供应商对照表](/docs/reference/ai-providers)，确保已切换至具备代理能力的进阶模型
 
 ## 3. 清理损坏的对话纪录文件
 
@@ -34,4 +34,4 @@ source: src/content/docs/zh-CN/troubleshooting/agent-tool-failed.tsx
 3. 从干净的状态重新开始对话任务
 
 > **⚠️ Warning**
-> 清理对话纪录仅会影响`.hyday/agent-conversations/v1.json`内被删除的那段对话，**不会删除或修改笔记原文内容**。但请注意，**删除对话**是一项不可撤销的操作，一旦执行即无法恢复。若内容极其重要，建议先备份对话档
+>  清理对话纪录仅会影响 `.hyday/agent-conversations/v1.json` 内被删除的那段对话，**不会删除或修改笔记原文内容**。但请注意，**删除对话**是一项不可撤销的操作，一旦执行即无法恢复。若内容极其重要，建议先备份对话档

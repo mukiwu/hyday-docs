@@ -4,11 +4,11 @@ category: guides
 slug: explore-tag-lineage
 source: src/content/docs/zh-TW/guides/explore-tag-lineage.tsx
 ---
-> *脈絡側邊欄是 Hyday 探索主題的核心介面，點任何標籤、人事物或 LifeLog 標記都能開啟，它把該主題的數據統計、時間軸、關聯主題集中在一個面板，並可進一步調用 AI 做深度脈絡分析*
+> * 脈絡側邊欄是 Hyday 探索主題的核心介面，點任何標籤、人事物或 LifeLog 標記都能開啟，它把該主題的數據統計、時間軸、關聯主題集中在一個面板，並可進一步調用 AI 做深度脈絡分析 *
 
 ## 1. 側邊欄面板的基本功能
 
-點擊任何**標籤**(`#tag`)、**人事物標記**(`@entity`) 或**LifeLog 標記**(`>(`、`<(`、`-(`、`%(`、`!(`)，側邊欄面板會從右側滑出。面板由以下幾個區塊組成：
+點擊任何**標籤** (`#tag`)、**人事物標記** (`@entity`) 或 **LifeLog 標記** (`>(`、`<(`、`-(`、`%(`、`!(`)，側邊欄面板會從右側滑出。面板由以下幾個區塊組成：
 
 ![脈絡側邊欄面板：展示主題標頭、三欄統計與分頁內容](https://hyday.tw/docs/screenshots/ui-lineage-drawer.png)
 
@@ -20,7 +20,7 @@ source: src/content/docs/zh-TW/guides/explore-tag-lineage.tsx
 
 - **近 7 天討論度**：最近 7 天出現次數，以及與前一週相比的百分比變化 (僅在差距大於 10% 時顯示)
 - **相關話題**：與此主題最常同時出現的另一個標籤或人事物
-- **未完成任務**：與此主題相關、尚未關閉的`>(`任務數量
+- **未完成任務**：與此主題相關、尚未關閉的 `>(` 任務數量
 
 ### 三個分頁
 
@@ -30,7 +30,7 @@ source: src/content/docs/zh-TW/guides/explore-tag-lineage.tsx
 
 ## 2. 脈絡分析 (VVIP 專屬功能)
 
-側邊欄裡的 AI 分析功能屬於[VVIP 專屬功能](https://hyday.tw/docs/reference/plans)，會將該主題近 90 天的紀錄送往使用者設定的 AI Provider 進行運算，產出文字總結。目前提供兩種分析：
+側邊欄裡的 AI 分析功能屬於 [VVIP 專屬功能](https://hyday.tw/docs/reference/plans)，會將該主題近 90 天的紀錄送往使用者設定的 AI Provider 進行運算，產出文字總結。目前提供兩種分析：
 
 ### 主題演變
 
@@ -51,7 +51,7 @@ source: src/content/docs/zh-TW/guides/explore-tag-lineage.tsx
 - **待處理**：尚未完成、需要繼續追蹤的項目
 
 > **ℹ️ Info**
-> AI 分析需呼叫使用者設定的 Provider。若網路不穩、Provider 未配置或暫時無法回應，會顯示**無法分析**；若該主題的歷史紀錄不足以產出有意義的趨勢，會顯示**資料不足**。若對資料傳輸有疑慮，可在**設定 → AI**切換至本機端的 Ollama
+>  AI 分析需呼叫使用者設定的 Provider。若網路不穩、Provider 未配置或暫時無法回應，會顯示**無法分析**；若該主題的歷史紀錄不足以產出有意義的趨勢，會顯示**資料不足**。若對資料傳輸有疑慮，可在 **設定 → AI** 切換至本機端的 Ollama 
 
 ## 何時適合打開脈絡側邊欄？
 

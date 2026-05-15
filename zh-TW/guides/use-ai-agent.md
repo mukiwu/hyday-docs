@@ -4,17 +4,17 @@ category: guides
 slug: use-ai-agent
 source: src/content/docs/zh-TW/guides/use-ai-agent.tsx
 ---
-> *Hyday Agent 可以讀寫你的筆記、執行 skill、用互動 widget 回應、並透過 Buddy 累積對你的長期記憶，讓 AI 真的變成**了解你的協作者**，而不是每次都要從頭解釋一遍的陌生人*
+> * Hyday Agent 可以讀寫你的筆記、執行 skill、用互動 widget 回應、並透過 Buddy 累積對你的長期記憶，讓 AI 真的變成**了解你的協作者**，而不是每次都要從頭解釋一遍的陌生人 *
 
 ## 1. 進入 Hyday Agent
 
-點擊側邊欄的**Hyday Agent**進入對話頁面
+點擊側邊欄的 **Hyday Agent** 進入對話頁面
 
 ![Hyday Agent 主介面：左側對話歷史、中間訊息流、右上模式切換](https://hyday.tw/docs/screenshots/guides-use-ai-agent-1.png)
 
 ## 2. Widget — 互動式回應
 
-Hyday Agent 不只回傳純文字，它會根據任務性質呼叫**render_widget**工具，在對話中嵌入可互動的卡片。目前支援的 widget 類型：
+Hyday Agent 不只回傳純文字，它會根據任務性質呼叫 **render_widget** 工具，在對話中嵌入可互動的卡片。目前支援的 widget 類型：
 
 - **note-list**：篩選結果以筆記清單呈現，可直接點擊跳轉
 - **summary-card**：分段摘要，適合每日總結、健康檢查報告
@@ -35,11 +35,11 @@ Skill 是預先寫好的常用工作流，分為幾類：
 - **CLI skill**：當後端為 Claude Code / Gemini CLI 等 CLI 訂閱時，CLI 本身的 skill 也會被列入選單
 - **MCP**：透過 MCP 協定接入的外部工具
 
-點擊**Hyday Agent 上方選單的「技能」按鈕**以集中管理 Skills，可重新排序、停用、或匯出分享給其他人
+點擊 **Hyday Agent 上方選單的「技能」按鈕** 以集中管理 Skills，可重新排序、停用、或匯出分享給其他人
 
 ## 4. Buddy — 長期記憶與人格
 
-Hyday 在 Agent 旁邊養著一隻**Buddy**，它是 Agent 的記憶層。Buddy 會在你與 Agent 互動的過程中，**定期反思**並把對你的長期觀察寫進四份檔案：
+Hyday 在 Agent 旁邊養著一隻 **Buddy**，它是 Agent 的記憶層。Buddy 會在你與 Agent 互動的過程中，**定期反思**並把對你的長期觀察寫進四份檔案：
 
 - **溝通風格**：你習慣的語氣、回應節奏、喜歡簡短還是詳細
 - **偏好**：你關心的主題、討厭的東西、堅持的原則
@@ -49,11 +49,11 @@ Hyday 在 Agent 旁邊養著一隻**Buddy**，它是 Agent 的記憶層。Buddy 
 每次 Agent 回應時會自動把這些觀察當作背景注入，所以對話次數越多，**Agent 會越認識你**，不需要每次重新解釋你是誰、在做什麼
 
 > **ℹ️ Info**
-> 所有 Buddy 觀察都存在筆記資料夾的`.hyday/observations/`底下，是純 markdown 檔案。你可以直接打開檢視 Buddy 對你的理解，覺得不對也可以手動修改
+>  所有 Buddy 觀察都存在筆記資料夾的 `.hyday/observations/` 底下，是純 markdown 檔案。你可以直接打開檢視 Buddy 對你的理解，覺得不對也可以手動修改 
 
 ## 5. 對話歷程的儲存位置
 
-所有 Agent 對話集中儲存在筆記資料夾的`.hyday/agent-conversations/v1.json`，可隨資料夾一起備份或版本控制
+所有 Agent 對話集中儲存在筆記資料夾的 `.hyday/agent-conversations/v1.json`，可隨資料夾一起備份或版本控制
 
 ## 典型應用場景
 

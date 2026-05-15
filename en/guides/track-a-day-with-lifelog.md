@@ -4,7 +4,7 @@ category: guides
 slug: track-a-day-with-lifelog
 source: src/content/docs/en/guides/track-a-day-with-lifelog.tsx
 ---
-> *LifeLog marks turn a scattered journal into a structured, analyzable timeline. This guide walks through a full day using them.*
+> * LifeLog marks turn a scattered journal into a structured, analyzable timeline. This guide walks through a full day using them. *
 
 ## Morning: From Waking Up to Starting Work
 
@@ -14,7 +14,7 @@ source: src/content/docs/en/guides/track-a-day-with-lifelog.tsx
 
 ## At Work: Focus and Capture
 
-When tracking a task, use`>(time)`for start and`<(time)`for end. For ideas that pop up along the way use`%()`, and use`!()`for important items:
+When tracking a task, use `>(time)` for start and `<(time)` for end. For ideas that pop up along the way use `%()`, and use `!()` for important items:
 
 ```
 ``
@@ -22,7 +22,7 @@ When tracking a task, use`>(time)`for start and`<(time)`for end. For ideas that 
 
 ## Afternoon: Light Notes
 
-You don't have to log everything —**mark only the points worth reviewing or analyzing later**:
+You don't have to log everything — **mark only the points worth reviewing or analyzing later**:
 
 ```
 ``
@@ -43,4 +43,4 @@ Adding entities and tags to the text next to a mark sharpens lineage analysis:
 ```
 
 > **ℹ️ Info**
-> Hyday isn't trying to track how busy you are. The more detail you capture, the more insight self-reviews and AI lineage analysis can surface later.
+>  Hyday isn't trying to track how busy you are. The more detail you capture, the more insight self-reviews and AI lineage analysis can surface later.

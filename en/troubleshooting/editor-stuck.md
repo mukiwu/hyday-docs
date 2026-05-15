@@ -4,7 +4,7 @@ category: troubleshooting
 slug: editor-stuck
 source: src/content/docs/en/troubleshooting/editor-stuck.tsx
 ---
-> *If the editor stops responding, input feels laggy, or you see a long-running loading skeleton when switching notes, use the suggestions below to diagnose and improve performance.*
+> * If the editor stops responding, input feels laggy, or you see a long-running loading skeleton when switching notes, use the suggestions below to diagnose and improve performance. *
 
 ## 1. The Loading State Lingers When Switching Notes
 
@@ -22,15 +22,15 @@ If you can't type and the UI is unresponsive, try the following in order:
 
 ## 3. Content Shifts or Indentation Looks Wrong
 
-If**saved content looks different from what you wrote**(especially with complex nested lists):
+If **saved content looks different from what you wrote** (especially with complex nested lists):
 
-- Press`⌘`+`Z`to undo back to the previous state
+- Press `⌘`+`Z` to undo back to the previous state
 
 ## 4. Performance Bottlenecks With Huge Files
 
 When a single note exceeds 1 MB, the editing experience degrades noticeably. Suggested optimizations:
 
-- **Split atomically**: break overly long articles into smaller sub-notes and connect them via`[[]]`backlinks
+- **Split atomically**: break overly long articles into smaller sub-notes and connect them via `[[]]` backlinks
 - **Slim down journal entries**: extract long-form topics out of a journal entry into standalone notes and keep only links in the journal entry
 
 ## 5. Heavy Syntax Highlighting in Code Blocks
@@ -41,4 +41,4 @@ Code blocks containing more than 500 lines consume significant resources for syn
 - For plain text that doesn't need syntax highlighting, use a regular paragraph instead of a code block
 
 > **ℹ️ Info**
-> Editor stability directly affects your writing experience. If you ever lose data or content gets modified unexpectedly,**report it to us immediately**with reproduction steps, the time it happened, the file size, and your Hyday version. The team prioritizes these issues.
+>  Editor stability directly affects your writing experience. If you ever lose data or content gets modified unexpectedly, **report it to us immediately** with reproduction steps, the time it happened, the file size, and your Hyday version. The team prioritizes these issues.

@@ -4,7 +4,7 @@ category: reference
 slug: keyboard-shortcuts
 source: src/content/docs/zh-CN/reference/keyboard-shortcuts.tsx
 ---
-> *Hyday 支援多种快捷键以提升操作效率。macOS 使用者请参考 ⌘ (Command) 与 ⇧ (Shift)；Windows 与 Linux 使用者多数情境下将 ⌘ 替换为 Ctrl 即可，少数例外详见下方注记。*
+> * Hyday 支援多种快捷键以提升操作效率。macOS 使用者请参考 ⌘ (Command) 与 ⇧ (Shift)；Windows 与 Linux 使用者多数情境下将 ⌘ 替换为 Ctrl 即可，少数例外详见下方注记。 *
 
 ## 系统全域快捷键
 

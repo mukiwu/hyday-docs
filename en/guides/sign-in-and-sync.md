@@ -4,7 +4,7 @@ category: guides
 slug: sign-in-and-sync
 source: src/content/docs/en/guides/sign-in-and-sync.tsx
 ---
-> *Signing in is entirely optional in Hyday. You get the full notes and journal experience offline without an account. Signing in unlocks VVIP entitlement, official updates, and cross-device preference sync.*
+> * Signing in is entirely optional in Hyday. You get the full notes and journal experience offline without an account. Signing in unlocks VVIP entitlement, official updates, and cross-device preference sync. *
 
 ## 1. Why Sign In?
 
@@ -14,7 +14,7 @@ source: src/content/docs/en/guides/sign-in-and-sync.tsx
 
 ## 2. How to Sign In
 
-1. Go to**Settings → Account**and click**Sign in**
+1. Go to **Settings → Account** and click **Sign in**
 2. Hyday opens your default browser to walk through the Google OAuth flow
 3. Once authorized, return to Hyday and sync completes automatically
 
@@ -22,7 +22,7 @@ Today only Google sign-in is supported. More sign-in methods are coming.
 
 ## 3. What Gets Uploaded to the Cloud?
 
-While signed in, Hyday only syncs**a minimal set of entitlement and preference data**to the encrypted cloud database (Firestore):
+While signed in, Hyday only syncs **a minimal set of entitlement and preference data** to the encrypted cloud database (Firestore):
 
 - Newsletter subscription status
 - UI language, theme, and font preferences
@@ -33,15 +33,15 @@ While signed in, Hyday only syncs**a minimal set of entitlement and preference d
 
 ## 4. About Signing Out
 
-You can sign out anytime from**Settings → Account**. When you sign out:
+You can sign out anytime from **Settings → Account**. When you sign out:
 
-- **Local notes stay completely intact**— signing out doesn't touch them
+- **Local notes stay completely intact** — signing out doesn't touch them
 - Cloud-synced UI preferences are removed from this device
-- The app returns to an**offline / unauthenticated**state, with the core Markdown editor still fully working
+- The app returns to an **offline / unauthenticated** state, with the core Markdown editor still fully working
 
 ## 5. Multi-Device Tips
 
-The same Google account can be signed in on several machines to share VVIP entitlements. Just remember that**Hyday does not sync the note contents themselves**: you need to deploy your notes folder across devices using a sync app or Git.
+The same Google account can be signed in on several machines to share VVIP entitlements. Just remember that **Hyday does not sync the note contents themselves**: you need to deploy your notes folder across devices using a sync app or Git.
 
 ## Further Reading
 

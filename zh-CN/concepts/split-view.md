@@ -4,7 +4,7 @@ category: concepts
 slug: split-view
 source: src/content/docs/zh-CN/concepts/split-view.tsx
 ---
-> *分割视图 (Split View) 允许同时打开两份内容进行对照阅读。无论是资料比对、跨笔记引用或是边读边记，都能在同一个窗口内流畅完成*
+> * 分割视图 (Split View) 允许同时打开两份内容进行对照阅读。无论是资料比对、跨笔记引用或是边读边记，都能在同一个窗口内流畅完成 *
 
 ## 单一视图 vs. 分割视图
 

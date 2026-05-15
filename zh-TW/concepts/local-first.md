@@ -4,19 +4,19 @@ category: concepts
 slug: local-first
 source: src/content/docs/zh-TW/concepts/local-first.tsx
 ---
-> *Hyday 的核心原則是**筆記永遠儲存在使用者自己的電腦**，而非官方伺服器。雲端功能僅用於同步少部分的個人設定，絕不儲存使用者的檔案。*
+> * Hyday 的核心原則是**筆記永遠儲存在使用者自己的電腦**，而非官方伺服器。雲端功能僅用於同步少部分的個人設定，絕不儲存使用者的檔案。 *
 
 ## 哪些資料會儲存在本機？
 
-- **所有的筆記內容**(`.md`)
-- **所有的日記內容**(`journal/年份/YYYY-MM-DD.md`)
-- **白板與 Hyday Agent 對話歷史**(`.hyday/`)
-- **搜尋索引與快取**(`.hyday/`)
+- **所有的筆記內容** (`.md`)
+- **所有的日記內容** (`journal/年份/YYYY-MM-DD.md`)
+- **白板與 Hyday Agent 對話歷史** (`.hyday/`)
+- **搜尋索引與快取** (`.hyday/`)
 
 這些檔案即是資料夾內可見的所有內容。即使解除安裝 Hyday，這些資料依然會完整保留，並可隨時透過任何 Markdown 編輯器開啟
 
-- **應用程式偏好設定**：過濾器、釘選清單、AI Provider 設定...等，存放於系統的 app 資料夾- macOS`~/Library/Application Support/Hyday/preferences.json`
-- Windows`%APPDATA%/Hyday/preferences.json`
+- **應用程式偏好設定**：過濾器、釘選清單、AI Provider 設定...等，存放於系統的 app 資料夾   - macOS `~/Library/Application Support/Hyday/preferences.json`
+  - Windows `%APPDATA%/Hyday/preferences.json` 
 
 ## 哪些資料會同步至雲端？(選用功能)
 
@@ -33,14 +33,14 @@ source: src/content/docs/zh-TW/concepts/local-first.tsx
 
 當使用 AI 相關功能 (包括但不限於 Hyday Agent、Hyday Channel、人格蒸餾或脈絡分析) 時，相關內容將會傳送至所選擇的 AI 服務供應商，處理方式依各供應商的隱私政策而定：
 
-- **雲端供應商**(如 OpenAI、Claude、Gemini、OpenRouter)：依據該公司的資料隱私政策處理
-- **本機供應商**(如 Ollama)：資料處理完全在電腦上進行，不會傳送到外部網路
-- **CLI 供應商**(Claude Code、Gemini CLI、Codex)：依據該工具的運作機制進行處理
+- **雲端供應商** (如 OpenAI、Claude、Gemini、OpenRouter)：依據該公司的資料隱私政策處理
+- **本機供應商** (如 Ollama)：資料處理完全在電腦上進行，不會傳送到外部網路
+- **CLI 供應商** (Claude Code、Gemini CLI、Codex)：依據該工具的運作機制進行處理
 
 建議在處理極其敏感的內容時，優先考慮使用本機 AI 模型。
 
 > **ℹ️ Info**
-> 可以將供應商設定為本機端的 Ollama，並下載合適的模型。如此一來，撰寫筆記、AI 分析與 Agent 操作都能在完全不連網的情況下在本機執行。
+>  可以將供應商設定為本機端的 Ollama，並下載合適的模型。如此一來，撰寫筆記、AI 分析與 Agent 操作都能在完全不連網的情況下在本機執行。 
 
 ## 離線狀態下可以使用嗎？
 
