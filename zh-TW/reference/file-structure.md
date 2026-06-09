@@ -23,6 +23,7 @@ source: src/content/docs/zh-TW/reference/file-structure.tsx
 - **notes-index/v1**：儲存標題、首段摘要與元資料快照，加速列表渲染
 - **tag-stats.json**：記錄標籤的出現次數與關聯性統計
 - **lineage-cache.json**：緩存脈絡分析的運算結果，避免重複調用 AI
+- **embeddings/index-v1.json**：[語意搜尋](https://hyday.tw/docs/concepts/semantic-search)的向量索引，需在設定中啟用後才會建立，全程在本機產生
 
 這些檔案具備**可重建性**：如果刪除 `.hyday/` 資料夾並重啟應用程式，系統會自動掃描整個筆記庫並完整重建索引
 

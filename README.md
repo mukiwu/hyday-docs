@@ -8,6 +8,7 @@ Indexed by DeepWiki for in-app docs Q&A. Do not edit by hand — re-run `npm run
 
   - [concepts/ai-agent](./en/concepts/ai-agent.md)
   - [concepts/backlinks](./en/concepts/backlinks.md)
+  - [concepts/books](./en/concepts/books.md)
   - [concepts/distillation](./en/concepts/distillation.md)
   - [concepts/editor](./en/concepts/editor.md)
   - [concepts/entities](./en/concepts/entities.md)
@@ -19,6 +20,7 @@ Indexed by DeepWiki for in-app docs Q&A. Do not edit by hand — re-run `npm run
   - [concepts/local-first](./en/concepts/local-first.md)
   - [concepts/note-types](./en/concepts/note-types.md)
   - [concepts/plugins](./en/concepts/plugins.md)
+  - [concepts/semantic-search](./en/concepts/semantic-search.md)
   - [concepts/split-view](./en/concepts/split-view.md)
   - [concepts/stages](./en/concepts/stages.md)
   - [concepts/tags](./en/concepts/tags.md)
@@ -65,6 +67,7 @@ Indexed by DeepWiki for in-app docs Q&A. Do not edit by hand — re-run `npm run
 
   - [concepts/ai-agent](./zh-CN/concepts/ai-agent.md)
   - [concepts/backlinks](./zh-CN/concepts/backlinks.md)
+  - [concepts/books](./zh-CN/concepts/books.md)
   - [concepts/distillation](./zh-CN/concepts/distillation.md)
   - [concepts/editor](./zh-CN/concepts/editor.md)
   - [concepts/entities](./zh-CN/concepts/entities.md)
@@ -76,6 +79,7 @@ Indexed by DeepWiki for in-app docs Q&A. Do not edit by hand — re-run `npm run
   - [concepts/local-first](./zh-CN/concepts/local-first.md)
   - [concepts/note-types](./zh-CN/concepts/note-types.md)
   - [concepts/plugins](./zh-CN/concepts/plugins.md)
+  - [concepts/semantic-search](./zh-CN/concepts/semantic-search.md)
   - [concepts/split-view](./zh-CN/concepts/split-view.md)
   - [concepts/stages](./zh-CN/concepts/stages.md)
   - [concepts/tags](./zh-CN/concepts/tags.md)
@@ -122,6 +126,7 @@ Indexed by DeepWiki for in-app docs Q&A. Do not edit by hand — re-run `npm run
 
   - [concepts/ai-agent](./zh-TW/concepts/ai-agent.md)
   - [concepts/backlinks](./zh-TW/concepts/backlinks.md)
+  - [concepts/books](./zh-TW/concepts/books.md)
   - [concepts/distillation](./zh-TW/concepts/distillation.md)
   - [concepts/editor](./zh-TW/concepts/editor.md)
   - [concepts/entities](./zh-TW/concepts/entities.md)
@@ -133,6 +138,7 @@ Indexed by DeepWiki for in-app docs Q&A. Do not edit by hand — re-run `npm run
   - [concepts/local-first](./zh-TW/concepts/local-first.md)
   - [concepts/note-types](./zh-TW/concepts/note-types.md)
   - [concepts/plugins](./zh-TW/concepts/plugins.md)
+  - [concepts/semantic-search](./zh-TW/concepts/semantic-search.md)
   - [concepts/split-view](./zh-TW/concepts/split-view.md)
   - [concepts/stages](./zh-TW/concepts/stages.md)
   - [concepts/tags](./zh-TW/concepts/tags.md)

@@ -23,6 +23,7 @@ To deliver fast search and statistics, Hyday builds shadow index files inside th
 - **notes-index/v1**: Stores titles, first-paragraph snippets, and metadata snapshots to speed up list rendering.
 - **tag-stats.json**: Tracks tag occurrence counts and relationship statistics.
 - **lineage-cache.json**: Caches lineage analysis results to avoid repeating AI calls.
+- **embeddings/index-v1.json**: The vector index for [semantic search](https://hyday.tw/docs/concepts/semantic-search), created only after you enable it and generated entirely on your machine.
 
 These files are **fully rebuildable**: if you delete the `.hyday/` folder and restart the app, Hyday will scan your entire notes folder and rebuild the index automatically.
 
