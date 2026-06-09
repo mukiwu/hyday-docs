@@ -35,7 +35,7 @@ source: src/content/docs/zh-CN/concepts/local-first.tsx
 
 - **云端供应商** (如 OpenAI、Claude、Gemini、OpenRouter)：依据该公司的资料隐私政策处理
 - **本机供应商** (如 Ollama)：资料处理完全在电脑上进行，不会传送到外部网络
-- **CLI 供应商** (Claude Code、Gemini CLI、Codex)：依据该工具的运作机制进行处理
+- **CLI 供应商** (Claude Code、Antigravity、Codex)：依据该工具的运作机制进行处理
 
 建议在处理极其敏感的内容时，优先考虑使用本机 AI 模型。
 

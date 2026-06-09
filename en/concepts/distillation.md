@@ -66,7 +66,7 @@ Three test prompts verify the distillation quality:
 
 ## Why Do We Need Web Search?
 
-Phase 1 has to run live research across six dimensions, so we **strongly recommend a CLI backend** (Claude Code, Gemini CLI, or Codex CLI) — these come with built-in search tools and work out of the box. If you go with an API backend, you'll need to configure a search tool separately, otherwise Phase 1 may not complete.
+Phase 1 has to run live research across six dimensions, so we **strongly recommend a CLI backend** (Claude Code, Antigravity, or Codex CLI) — these come with built-in search tools and work out of the box. If you go with an API backend, you'll need to configure a search tool separately, otherwise Phase 1 may not complete.
 
 To pick the right CLI for you, see **Settings → AI → Functions → Persona distillation**.
 

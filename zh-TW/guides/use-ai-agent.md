@@ -32,7 +32,7 @@ Skill 是預先寫好的常用工作流，分為幾類：
 
 - **內建 skill**：今日筆記摘要、發現筆記間的隱藏連結、筆記庫健康檢查、卡片組合成文章、筆記整理成白板
 - **使用者 skill**：自行新增的個人化任務，最多 50 個，可隨時編輯 / 複製 / 匯出 / 刪除
-- **CLI skill**：當後端為 Claude Code / Gemini CLI 等 CLI 訂閱時，CLI 本身的 skill 也會被列入選單
+- **CLI skill**：當後端為 Claude Code / Antigravity 等 CLI 訂閱時，CLI 本身的 skill 也會被列入選單
 - **MCP**：透過 MCP 協定接入的外部工具
 
 點擊 **Hyday Agent 上方選單的「技能」按鈕** 以集中管理 Skills，可重新排序、停用、或匯出分享給其他人

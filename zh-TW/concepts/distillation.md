@@ -66,7 +66,7 @@ AI 會在公開網路上做六個面向的搜尋：
 
 ## 為什麼需要網路搜尋？
 
-Phase 1 必須做六個面向的即時調研，因此**強烈建議使用 CLI 後端** (Claude Code、Gemini CLI、Codex CLI)，這些後端內建搜尋工具，可直接運作。若選用 API 後端，需額外配置搜尋工具，否則 Phase 1 可能無法完成。
+Phase 1 必須做六個面向的即時調研，因此**強烈建議使用 CLI 後端** (Claude Code、Antigravity、Codex CLI)，這些後端內建搜尋工具，可直接運作。若選用 API 後端，需額外配置搜尋工具，否則 Phase 1 可能無法完成。
 
 如何選擇適合你的 CLI，請參考：**設定 → AI → Functions → 人格蒸餾**
 

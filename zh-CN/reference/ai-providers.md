@@ -4,7 +4,7 @@ category: reference
 slug: ai-providers
 source: src/content/docs/zh-CN/reference/ai-providers.tsx
 ---
-> * Hyday 支援多种 AI 服务供应商 (Providers)，可根据运算速度、逻辑能力或隐私需求选取最适合的模型。本页涵盖透过 **API Key (或本机端点 URL)** 设置的供应商；Claude Code、Gemini CLI、Codex CLI 等并未涵盖在内 *
+> * Hyday 支援多种 AI 服务供应商 (Providers)，可根据运算速度、逻辑能力或隐私需求选取最适合的模型。本页涵盖透过 **API Key (或本机端点 URL)** 设置的供应商；Claude Code、Antigravity、Codex CLI 等并未涵盖在内 *
 
 ## 支援的服务供应商对照表
 

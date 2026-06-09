@@ -10,7 +10,7 @@ source: src/content/docs/en/troubleshooting/distillation-stalls.tsx
 
 Phase 1 of persona distillation requires **real-time web research across six dimensions**. Whether a search tool is available decides whether the whole process can run at all:
 
-- **CLI backends are recommended** (Claude Code, Gemini CLI, Codex CLI): these ship with built-in search tools and work out of the box
+- **CLI backends are recommended** (Claude Code, Antigravity, Codex CLI): these ship with built-in search tools and work out of the box
 - If you choose an API backend, you must configure a search tool separately, or Phase 1 will fail outright or produce vague content.
 
 **Where to switch**: Settings → AI → Functions → Persona Distillation
@@ -53,7 +53,7 @@ Distillation can be aborted at any time. Aborting won't leave a half-baked perso
 
 If the same subject keeps failing:
 
-- Switch AI backends and try again (for example, from Gemini CLI to Claude Code)
+- Switch AI backends and try again (for example, from Antigravity to Claude Code)
 - Run a smoke test with a **more internationally recognizable subject** (Steve Jobs, for instance) to confirm the backend and search tool work
 - If the problem persists, open a GitHub Issue and include the **inputs** and the full Console error output
 

@@ -32,7 +32,7 @@ Skills are pre-written workflows for common tasks, grouped into a few categories
 
 - **Built-in skills**: today's note summary, find hidden connections between notes, notes folder health check, compose cards into an article, organize notes onto a whiteboard
 - **User skills**: your own personalized tasks, up to 50 of them. Edit / duplicate / export / delete anytime.
-- **CLI skills**: when the backend is a CLI subscription like Claude Code or Gemini CLI, the CLI's own skills are also listed
+- **CLI skills**: when the backend is a CLI subscription like Claude Code or Antigravity, the CLI's own skills are also listed
 - **MCP**: external tools connected via the MCP protocol
 
 Click the **Skills button at the top of Hyday Agent** to manage skills in one place — reorder, disable, or export to share with others.

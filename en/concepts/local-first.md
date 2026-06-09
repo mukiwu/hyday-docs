@@ -35,7 +35,7 @@ When you use AI features (including but not limited to Hyday Agent, Hyday Channe
 
 - **Cloud providers** (OpenAI, Claude, Gemini, OpenRouter): Handled per that company's data privacy policy.
 - **Local providers** (Ollama): Everything runs on your computer — nothing leaves the device.
-- **CLI providers** (Claude Code, Gemini CLI, Codex): Handled per that tool's operating model.
+- **CLI providers** (Claude Code, Antigravity, Codex): Handled per that tool's operating model.
 
 For highly sensitive content, we recommend leaning on local AI models.
 

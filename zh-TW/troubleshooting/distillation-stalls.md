@@ -10,7 +10,7 @@ source: src/content/docs/zh-TW/troubleshooting/distillation-stalls.tsx
 
 人格蒸餾的 Phase 1 需要進行**六維度的即時網路調研**，是否有可用的搜尋工具直接決定了整個流程能不能跑：
 
-- **建議使用 CLI 後端** (Claude Code、Gemini CLI、Codex CLI)：這些後端內建搜尋工具，開箱可用
+- **建議使用 CLI 後端** (Claude Code、Antigravity、Codex CLI)：這些後端內建搜尋工具，開箱可用
 - 若選用 API 後端，必須額外配置搜尋工具，否則 Phase 1 會直接失敗或產出空泛內容。
 
 **切換位置**：設定 → AI → Functions → 人格蒸餾
@@ -53,7 +53,7 @@ Phase 1 要在公開網路上做著作 / 對話 / 表達 / 他者 / 決策 / 時
 
 若同一個人物反覆失敗：
 
-- 切換 AI 後端再試一次 (例如從 Gemini CLI 切到 Claude Code)
+- 切換 AI 後端再試一次 (例如從 Antigravity 切到 Claude Code)
 - 嘗試**更具國際辨識度的人物**做最小化測試 (例如 Steve Jobs)，確認後端與搜尋工具是否正常
 - 若問題依舊，請開啟 GitHub Issue 並檢附當下的**輸入參數**與 Console 的完整錯誤訊息
 

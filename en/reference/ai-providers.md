@@ -4,7 +4,7 @@ category: reference
 slug: ai-providers
 source: src/content/docs/en/reference/ai-providers.tsx
 ---
-> * Hyday supports multiple AI service providers, so you can pick the model that best fits your needs for speed, reasoning, or privacy. This page covers providers configured via an **API key (or local endpoint URL)**; Claude Code, Gemini CLI, Codex CLI, and similar CLI backends are not covered here. *
+> * Hyday supports multiple AI service providers, so you can pick the model that best fits your needs for speed, reasoning, or privacy. This page covers providers configured via an **API key (or local endpoint URL)**; Claude Code, Antigravity, Codex CLI, and similar CLI backends are not covered here. *
 
 ## Supported Providers
 

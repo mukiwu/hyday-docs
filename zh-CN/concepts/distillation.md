@@ -66,7 +66,7 @@ AI 会在公开网络上做六个面向的搜索：
 
 ## 为什么需要网络搜索？
 
-Phase 1 必须做六个面向的即时调研，因此**强烈建议使用 CLI 后端** (Claude Code、Gemini CLI、Codex CLI)，这些后端内建搜索工具，可直接运作。若选用 API 后端，需额外配置搜索工具，否则 Phase 1 可能无法完成。
+Phase 1 必须做六个面向的即时调研，因此**强烈建议使用 CLI 后端** (Claude Code、Antigravity、Codex CLI)，这些后端内建搜索工具，可直接运作。若选用 API 后端，需额外配置搜索工具，否则 Phase 1 可能无法完成。
 
 如何选择适合你的 CLI，请参考：**设置 → AI → Functions → 人格蒸馏**
 
