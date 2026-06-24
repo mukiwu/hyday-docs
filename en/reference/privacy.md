@@ -31,6 +31,8 @@ Hyday is committed to a tracking-free experience and **does not collect** any te
 - **App version**: used for automatic update checks and prompts.
 - **Device hardware info**: OS and chip type, used for license verification and compatibility tuning.
 
+Separately, the marketing website hyday.tw uses Google Analytics 4 for **anonymous** traffic analysis (aggregate page views and download clicks only, with IP anonymization enabled). Attribution data is limited to standard UTM fields and the referring site's **domain origin** (never the full referrer URL). This analytics lives only on the website and is fully separate from the desktop app—**the desktop app itself contains no analytics or tracking code**.
+
 ## What Happens When You Sign Out
 
 When you sign out:

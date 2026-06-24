@@ -26,10 +26,12 @@ source: src/content/docs/en/reference/markdown-extensions.tsx
 
 ## Math (KaTeX)
 
-Math equations **must be inserted from the slash command menu** inside the editor — they are **not** triggered automatically by typing `$`:
+There are two ways to insert math equations **in the editor**:
 
-- In the editor, type `/` to open the menu, then search for **Equation** (block formula) or **Inline Equation**.
-- Once inserted, write LaTeX syntax inside the KaTeX editor box for a live preview.
+- **Type directly (fastest)**: for inline math, type `$…$` and it converts as soon as you type the closing `$`; for a block equation, type `$$` then press **Enter**. Neither triggers inside a code block.
+- **Slash command**: type `/` to open the menu, then search for **Equation** (block formula) or **Inline Equation**.
+
+Once inserted, write LaTeX syntax inside the KaTeX editor box for a live preview.
 
 When editing the `.md` file **outside the editor**, you can write the following syntax directly, and Hyday will render it with KaTeX on load:
 
